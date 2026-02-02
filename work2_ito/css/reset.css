@@ -36,11 +36,6 @@ ul {
   list-style: none;
 }
 
-li {
-  /*左の「・」を消す*/
-  list-style: none;
-}
-
 img {
   max-width: 100%;
   vertical-align: bottom;
