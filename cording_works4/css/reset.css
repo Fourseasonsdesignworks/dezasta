@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* cssリセット */
+
+/*利用するタグによってこちらの内容は増やす*/
+
+html,
+body,
+h1,
+h2,
+h3,
+p,
+dl,
+dt,
+dd,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  /*デフォルトの文字色、font-familyを予め当てておく*/
+  color: #4F270B;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+  /*下線を消す*/
+  text-decoration: none;
+  /*色を消す*/
+  color: inherit;
+}
+
+ul {
+  /*左の「・」を消す*/
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+  border: none;
+}
+
+h2 {
+  color: #4F270B;
+  font-size: 64px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: normal;
+  color: #D20202;
+  font-family: "Diplomata SC", sans-serif;
+  margin-block: 32px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: normal;
+  color: #4F270B;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 40px 0 16px;
+}
+
+h5 {
+  font-size: 26px;
+  font-weight: normal;
+  color: #D20202;
+  font-family: "Diplomata SC", sans-serif;
+  margin: 0;
+}
+
+h6 {
+  font-size: 28px;
+  font-weight: normal;
+  color: #4F270B;
+  font-family: "Diplomata SC", sans-serif;
+}
+
+
+th,
+td {
+  font-size: 20px;
+  text-align: left;
+  padding-right: 40px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
